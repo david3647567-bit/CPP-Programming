@@ -12,4 +12,12 @@ int main()
 	cout << "Array values  : "<< ArrayValues[2]<<endl;
 	cout << "Array values  : "<< ArrayValues[3]<<endl;
 	cout << "Array values  : "<< ArrayValues[4]<<endl;
+
+   // accsing array elements by for loop
+
+  for(int i = 0; i <= 4; i++)
+  {
+    cout << ArrayValues[i]<<",";
+  }
+
 }
